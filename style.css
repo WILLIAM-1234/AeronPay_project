@@ -125,7 +125,6 @@ footer {
     color: #fff;
 }
 
-/* Address and Email Information Styles */
 .address {
     text-align: left;
     max-width: 600px;
@@ -148,7 +147,7 @@ footer {
 }
 
 .email-info, .address-info {
-    flex-basis: calc(50% - 10px); /* Side by side with a small gap */
+    flex-basis: calc(50% - 10px); 
 }
 
 .email-info p {
@@ -168,14 +167,12 @@ footer {
     text-decoration: none;
 }
 
-/* Style the icon in the "Email Support" section */
 .email-info i {
     font-size: 1.2rem;
     margin-right: 5px;
     color: #00dbde;
 }
 
-/* Style the icon in the "Address" section */
 .address-info i {
     font-size: 1.2rem;
     margin-right: 5px;
@@ -187,8 +184,7 @@ footer {
     text-decoration: underline;
 }
 
-/* Optional: Style the map in the footer if needed */
 .address-map iframe {
     width: 100%;
-    height: 300px; /* Adjust the height as needed */
+    height: 300px; 
 }
