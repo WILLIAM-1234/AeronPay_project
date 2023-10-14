@@ -1,13 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Your code here
     const nameInput = document.getElementById('name');
     const emailInput = document.getElementById('email');
     const phoneInput = document.getElementById('phone');
     const subjectInput = document.getElementById('subject');
     const messageInput = document.getElementById('message');
-    // ... (the rest of your code)
-    
-    // Add event listeners
+
     nameInput.addEventListener('input', function() {
         console.log('Name: ' + nameInput.value);
         console.log('Email: ' + emailInputInput.value);
